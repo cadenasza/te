@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+header {
+    padding: 1rem;
+    background-color: #000;
+}
+.navbar {
+    margin: 0.5rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+main {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image {
+    max-width: 60vw;
+    margin: 1rem;
+}
+
+.img-1{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.div-text h1 {
+    margin: 1rem 0 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.div-text p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.container-cards {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.title-container-cards {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 4rem;
+}
+
+.div-cards {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    max-height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: 0 1rem;
+    border-radius: 18px;
+}
+
+.img-card {
+    max-width: 100%;
+    border-radius: 10px;
+    padding:0 1rem;
+}
+
+
+.text-card {
+    color: #000000;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn{
+    background-color: #ff7b00;
+    color: #000;
+    margin: 1.3rem 0;
+    padding: .8rem 1.4rem;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.btn:hover {
+    transition: .5s;
+    background-color: rgb(21, 250, 21);
+    color: #fff;
+}
